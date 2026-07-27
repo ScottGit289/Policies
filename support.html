@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SprintLab Support</title>
+<meta name="description" content="Help and support for the SprintLab iOS app.">
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1a1d21; --muted: #5c636b; --accent: #0b7f6b;
+    --card: #f6f8f8; --border: #e3e8e8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0c1015; --fg: #e6eaee; --muted: #9aa4ad; --accent: #34c8a8;
+      --card: #131922; --border: #232b35;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65; font-size: 17px;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 3rem 1.25rem 4rem; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 .25rem; letter-spacing: -0.02em; }
+  h2 { font-size: 1.15rem; margin: 2rem 0 .5rem; letter-spacing: -0.01em; }
+  p { margin: 0 0 1rem; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  strong { font-weight: 650; }
+  .lede { font-size: 1.1rem; color: var(--muted); margin-top: .75rem; }
+  .card {
+    background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+    padding: 1.1rem 1.25rem; margin: 1.5rem 0;
+  }
+  .contact { font-size: 1.05rem; }
+  footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border); color: var(--muted); font-size: .9rem; }
+  footer a { color: var(--muted); text-decoration: underline; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>SprintLab Support</h1>
+    <p class="lede">A local-first training lab for sprinters — readiness, analytics and personal bests, all on your device.</p>
+  </header>
+
+  <div class="card contact">
+    <strong>Need help?</strong> Email <a href="mailto:support@sdtuk.com">support@sdtuk.com</a> and we'll get back to you.
+  </div>
+
+  <h2>Do I need an account?</h2>
+  <p>No. SprintLab has no sign-up and no login. You can use every feature straight away.</p>
+
+  <h2>Where is my data stored?</h2>
+  <p>Everything you enter — profile, personal bests, sessions, daily metrics and any synced health data — is stored <strong>on your device only</strong>. There is no cloud copy.</p>
+
+  <h2>Do I need a wearable?</h2>
+  <p>No. The app works fully with manual entry. If you have an Oura Ring you can optionally connect it to auto-fill recovery metrics — go to <strong>Settings → Wearables</strong>, turn on wearable sync, and tap <strong>Connect</strong>. You can disconnect any time, which removes that device's data.</p>
+
+  <h2>How do I back up or move my data to a new phone?</h2>
+  <p>Open <strong>Settings → Your data → Export backup</strong> to save a backup file wherever you like (Files, email, AirDrop). On another device, use <strong>Import backup</strong> and choose that file to restore everything.</p>
+
+  <h2>How do I delete my data?</h2>
+  <p>Open <strong>Settings → Delete all data</strong>. Because everything lives on your device, deleting it there removes it completely.</p>
+
+  <h2>How is my readiness score worked out?</h2>
+  <p>It blends recovery signals (sleep, HRV, resting heart rate and more) with your own check-in and training load into a 0–100 score and a Sprint / Gym / Recovery / Rest recommendation. Every value is editable, and each is labelled by where it came from.</p>
+
+  <footer>
+    SprintLab · <a href="./">Privacy Policy</a> · <a href="./terms.html">Terms of Service</a> · support@sdtuk.com
+  </footer>
+</div>
+</body>
+</html>
